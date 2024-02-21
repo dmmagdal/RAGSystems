@@ -29,7 +29,6 @@ from langchain.chains.question_answering import load_qa_chain			# loads a chain 
 from langchain.chains import RetrievalQA								# combines a Retriever with QnA chain to do question answering
 
 
-
 def main():
 	# API token.
 	with open('.env') as f:
